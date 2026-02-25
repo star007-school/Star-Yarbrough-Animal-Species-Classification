@@ -11,15 +11,16 @@ This project proposes an image classification system that predicts the species o
 
 ## Technical Approach
 - **Technique:** Image Classification
-- **Model:** Pre-trained ResNet or EfficientNet
-- **Framework:** PyTorch or TensorFlow
+- **Model:** ResNet-50 (pre-trained)
+- **Framework:** PyTorch 
 - **Method:** Transfer learning to fine-tune the model on an animal species dataset
 
 ## Dataset Plan
-- **Source:** Public wildlife dataset such as iNaturalist
-- **Size:** Thousands of labeled images
-- **Labels:** Animal species names
-- **Preparation:** Resize images, normalize pixel values, and split into training and testing sets
+- **Source:** iNaturalist  2021 Dataset
+- **Size:** 10,000+ labeled images (subset will be used for Tier 1)
+- **Labels:** Animal species categories
+- **Link:** https://github.com/visipedia/inat_comp
+- **Preparation:** Resize images, normalize pixel values, and split into training and testing set. Transfer learning will be applied.
 
 ## Success Metrics
 - **PrimarybMetric:** Classification accuracy &ge; 80%
@@ -35,7 +36,7 @@ This project proposes an image classification system that predicts the species o
 
 ## Resources Needed
 - Google Colab (free GPU)
-- PyTorch or TensorFlow
+- PyTorch
 - Public wildlife dataset
 - Estimated Cost: $0
 
