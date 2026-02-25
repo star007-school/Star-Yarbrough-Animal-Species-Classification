@@ -44,3 +44,16 @@ This project proposes an image classification system that predicts the species o
   - *Mitigation:* Limit number of species/classes
 - **Risk:** Low accuracy
   - *Mitigation:* Apply data augmentation or adjust model selection
+
+## AI Usage Log
+AI tools were used to assist with brainstorming project structure, refining documentation language, and clarifying technical planning decisions. 
+All implementation adn final decisions were made by myself, the project author. 
+
+This section will be updated as development continues.
+
+## Current Status 
+- [x] Repository created
+- [x] Dataset accquired
+- [ ] Model training started
+- [ ] Demo created
+- [ ] Final Presentation ready
